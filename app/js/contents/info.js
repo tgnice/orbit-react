@@ -1,25 +1,24 @@
 const userinfo={
   profile:{
-    name : "Commander Keen",
-    tag : "Full stack Engineer",
-    mail : "alan.doe@website.com",
-    phone : "0123 456 789",
-    blog : "portfoliosite.com",
-    linkedin : "linkedin.com/in/alandoe",
-    github : "github.com/username",
-    twitter : "@twittername",
-    imgUrl : "https://i.imgur.com/0DeVvcc.png"
+    name : "SeungHyun Seo",
+    tag : "Computer Scientist",
+    mail : "tgnice@gmail.com",
+    phone : "010 9493 0413",
+    blog : "programming.or.kr",
+    linkedin : "https://kr.linkedin.com/in/seung-hyun-seo-92468335",
+    github : "github.com/tgnice",
   },
   educations : [{
      major : "MSc in Computer Science",
-     school : "University of London" ,
-     during : "2011-2012"
+     school : "Korea Advanced Institute of Science and Technology" ,
+     during : "2011-2013"
   },{
-     major : "BSc in Applied Mathematics",
-     school : "Bristol University" ,
-     during : "2007-2011"
+     major : "BSc in Computer Science",
+     school : "Hongik University" ,
+     during : "2004-2011"
   }],
-  languages : [{lang:"English",fluency:"Native"},{lang:"Spanish",fluency:"Professional"},{lang:"French",fluency:"Professional"}],
-  interests :["Github Trend","Climbing","Tech Blogging"]
+  languages : [{lang:"English",fluency:"professional"},{lang:"Korean",fluency:"native"}],
+  interests :["Data Science","Computer architecture","Computer Network"],
+  Certification : ["CISA"]
 }
 module.exports= userinfo;
